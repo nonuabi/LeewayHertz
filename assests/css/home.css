@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+
+  text-align: center;
+}
+
+.headline {
+  text-align: center;
+}
+
+.book {
+  width: auto;
+  height: 50px;
+
+  display: flex;
+  justify-content: space-around;
+}
+.author {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.author input {
+  margin-right: 10px;
+}
+button {
+  background-color: grey;
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+}
