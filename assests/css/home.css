@@ -1,34 +1,56 @@
 body {
   margin: 0;
   box-sizing: border-box;
-
   text-align: center;
 }
 
 .headline {
   text-align: center;
 }
-
-.book {
-  width: auto;
-  height: 50px;
-
+.display-container {
   display: flex;
-  justify-content: space-around;
+  background-color: cadetblue;
+  justify-content: center;
 }
-.author {
-  width: auto;
-  height: 50px;
-  display: flex;
-  justify-content: space-around;
+.display-container ol {
+  list-style: none;
+  padding: 0;
+}
+.detail {
+  padding: 3px 10px;
+  border: 5px solid white;
+  background-color: revert;
+  color: white;
+  width: 70vw;
+  border-radius: 10px;
   margin-top: 10px;
 }
-.author input {
-  margin-right: 10px;
+.field {
+  display: flex;
+  justify-content: space-between;
 }
-button {
-  background-color: grey;
-  width: 150px;
-  height: 50px;
-  margin-top: 20px;
+
+.input-container {
+  background-color: gray;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.input-container input {
+  width: 30vw;
+  height: 35%;
+  padding: 10px;
+  margin-top: 2px;
+
+  color: black;
+}
+.input-container button {
+  padding: 3px;
+  width: 10vw;
+  color: white;
+  height: 25%;
+  background-color: black;
+  margin-top: 2px;
 }
